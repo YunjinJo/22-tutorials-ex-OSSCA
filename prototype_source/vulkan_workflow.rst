@@ -1,11 +1,11 @@
 PyTorch Vulkan 백엔드 사용자 워크플로
-============================================
+=====================================
 
 **Author**: `Ivan Kobzarev <https://github.com/IvanKobzarev>`_
 
 소개
 ------
-PyTorch 1.7은 Vulkan 그래픽과 컴퓨팅 API를 지원하는 GPU에서 모델 추론(inference)을 실행하는 것을 지원합니다. 주 목표 디바이스는 안드로이드 장치의 모바일 GPU입니다. Vulkan 백엔드는 Vulkan을 지원하는 Intel 통합 GPU와 같은 장치를 사용해 Linux, Mac 그리고 Windows 데스크톱 빌드에서도 사용할 수 있습니다. 이 기능은 프로토타입 단계이며 변경될 수 있습니다.
+PyTorch 1.7은 Vulkan 그래픽과 컴퓨팅 API를 지원하는 GPU에서 모델 추론(inference)을 실행을 지원합니다. 주 목표 기기는 안드로이드 장치의 모바일 GPU입니다. Vulkan 백엔드는 Vulkan을 지원하는 Intel 통합 GPU와 같은 장치를 사용해 Linux, Mac 그리고 Windows 데스크톱 빌드에서도 사용할 수 있습니다. 이 기능은 초기 단계이며 변경될 수 있습니다.
 
 PyTorch에서 Vulkan 백엔드 빌드하기
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
